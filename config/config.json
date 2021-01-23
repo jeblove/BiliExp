@@ -141,8 +141,8 @@
         },
         "manga_sign_task": true,  // 任务:漫画app签到
         "exchangeCoupons_task": { // 任务:漫画积分兑换福利券，请保证程序在中午12点0分30秒左右启动，其他时候启动本功能几乎都会兑换失败
-            "enable": false,      // 任务开关，值为true或false分别代表开启和关闭
-            "num": 0              // 兑换数量，值为整数
+            "enable": true,      // 任务开关，值为true或false分别代表开启和关闭
+            "num": 2              // 兑换数量，值为整数
         },
         "manga_vip_reward_task": {// 任务:领取每月大会员漫画权益(漫读劵)
             "enable": true,       // 任务开关，值为true或false分别代表开启和关闭
